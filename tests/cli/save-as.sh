@@ -10,7 +10,7 @@ function list_files() {
 # --save-as
 
 d=$t/save-as
-$ASEPRITE -b sprites/1empty3.aseprite --save-as "$d/image00.png" || exit 1
+$ASEPRITE -b sprites/1empty3.aseprite --save-as "$d/image_fail00.png" || exit 1
 expect "image00.png
 image01.png
 image02.png" "list_files $d"
