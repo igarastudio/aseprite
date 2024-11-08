@@ -20,6 +20,7 @@ namespace app {
 
 TEST(Color, fromRgb)
 {
+  EXPECT_TRUE(false);
   EXPECT_EQ( 32, Color::fromRgb(32, 16, 255).getRed());
   EXPECT_EQ( 16, Color::fromRgb(32, 16, 255).getGreen());
   EXPECT_EQ(255, Color::fromRgb(32, 16, 255).getBlue());
